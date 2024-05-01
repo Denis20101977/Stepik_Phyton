@@ -23,7 +23,12 @@ def sub_2():
     result = var_1 * var_2
     print("разность = " + str(result))
 
+def sub_3 ():
+    result = var_1 % var_2
+    print("Остаток = " + str(result))
+
 summ()
 sub()
 sub_2()
+sub_3()
 

@@ -1,7 +1,6 @@
 pin_code = 1234
 print("Введите пин-код")
 user_pin = int(input())
-
 if pin_code == user_pin:
     print("Ваш пин-код верный!")
 else:
